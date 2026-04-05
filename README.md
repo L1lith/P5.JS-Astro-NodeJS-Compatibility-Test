@@ -9,3 +9,6 @@ Step 1: `npm install`
 Step 2: `npm run dev`
 
 Step 3: Open your browser to whatever URL the terminal suggests, usually `https://localhost:4321` by default though it increments by 1 until it finds an unoccupied port.
+
+## A note about the issue
+The p5 library is being imported inside of `src/components/P5Test.jsx`. The component does not actually do anything besides attemping to load p5 on both the server and client, it never attempts to even use the library on either side.
