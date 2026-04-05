@@ -1,0 +1,20 @@
+{
+  "name": "astro-test",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/solid-js": "^6.0.1",
+    "astro": "^6.1.3",
+    "p5": "https://pkg.pr.new/p5@594c74f",
+    "solid-js": "^1.9.12"
+  }
+}
